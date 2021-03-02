@@ -12,6 +12,11 @@
             "matches": ["*://*/*"],
             "js": ["src/content.js"]
         }
-    ]
+    ],
+    "icons": {
+        "16": "assets/cr-pwgen16.png",
+        "48": "assets/cr-pwgen48.png",
+        "128": "assets/cr-pwgen128.png"
+    }
 }
 
