@@ -35,6 +35,6 @@ Roadmap
 v1.0.1:
     - Update to MV3
       [https://developer.chrome.com/docs/extensions/mv3/intro/]
-v1.0.2:
+v1.1.0:
     - Autofill this generated password to all
       `<input type="password">`s on page (similar to Mozilla Firefox)
