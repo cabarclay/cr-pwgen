@@ -14,6 +14,7 @@ is only configurable in the source. It is planned to fix both of
 these things (as much as I like the pseudo-suckless nature of the
 configuration) at which point it will be published onto the CWS.
 
+
 Support
 =======
 
@@ -34,6 +35,7 @@ Installation
 
 It is recommended to remove the extension button, as this does not
 yet provide any functionality.
+
 
 Motive
 ======
@@ -61,3 +63,10 @@ v1.1.0:
 v1.2.0:
     - Move configuration to a popup.
     - Publish to CWS.
+
+
+License
+=======
+
+ This is under the "Unlicense" license. Please see `LICENSE` for more
+info.
