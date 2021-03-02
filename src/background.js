@@ -5,6 +5,5 @@ chrome.contextMenus.create({
 });
 
 function clickHandler(info, tab) {
-//    console.log(JSON
     chrome.tabs.sendMessage(tab.id, {});
 }
