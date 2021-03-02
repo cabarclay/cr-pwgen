@@ -31,7 +31,7 @@ Installation
     - Then click `Load unpacked` and navigate to the downloaded
       extension source.
     - On future updates, the extension can then be similarly
-      `Update`d.
+      `Update`d by replacing the old source with the updated source.
 
 It is recommended to remove the extension button, as this does not
 yet provide any functionality.
