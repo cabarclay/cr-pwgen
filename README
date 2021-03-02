@@ -18,7 +18,7 @@ configuration) at which point it will be published onto the CWS.
 Support
 =======
 
- This plugin *should* just work on at-least the most up-to-date (at 
+ This plugin *should* just work on at least the most up-to-date (at 
 time of writing) versions of Chrome and Chromium-based browsers.
 
 
