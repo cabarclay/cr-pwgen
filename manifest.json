@@ -1,0 +1,17 @@
+{
+    "name": "cr-pwgen",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "description": "Chromium extension to insert generated passwords",
+    "permissions": ["contextMenus"],
+    "background": {
+        "scripts": ["src/background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["src/content.js"]
+        }
+    ]
+}
+
