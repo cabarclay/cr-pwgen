@@ -9,12 +9,31 @@ About
 =====
 
  Chromium extension to fill input with a random password. This is not
-published on the Chrome Web Store because I don't see why it should
-be - I don't imagine it's the most secure or sane way of doing it;
-and it is designed to be configured in source. To side-load this
-plugin: download the source, enable developer mode in the extensions
-menu, then click `Load unpacked` and navigate to the downloaded
-extension source.
+published on the Chrome Web Store (CWS) as it currently uses MV2 and 
+is only configurable in the source. It is planned to fix both of
+these things (as much as I like the pseudo-suckless nature of the
+configuration) at which point it will be published onto the CWS.
+
+Support
+=======
+
+ This plugin *should* just work on at-least the most up-to-date (at 
+time of writing) versions of Chrome and Chromium-based browsers.
+
+
+Installation
+============
+
+1. Download the source
+2. Side-load the plugin: 
+    - Enable developer mode in the extensions menu 
+    - Then click `Load unpacked` and navigate to the downloaded
+      extension source.
+    - On future updates, the extension can then be similarly
+      `Update`d.
+
+It is recommended to remove the extension button, as this does not
+yet provide any functionality.
 
 Motive
 ======
@@ -26,6 +45,7 @@ it does not offer this functionality.
 
 Configuration
 =============
+
  Edit the two const values in `src/background.js`, and then click 
 `Update` in the extensions menu.
 
@@ -35,6 +55,9 @@ Roadmap
 v1.0.1:
     - Update to MV3
       [https://developer.chrome.com/docs/extensions/mv3/intro/]
-v1.0.2:
+v1.1.0:
     - Autofill this generated password to all
       `<input type="password">`s on page (similar to Mozilla Firefox)
+v1.2.0:
+    - Move configuration to a popup.
+    - Publish to CWS.
