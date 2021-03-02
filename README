@@ -1,0 +1,40 @@
+.d8888b. 88d888b.      88d888b. dP  dP  dP .d8888b. .d8888b. 88d888b. 
+88'  `"" 88'  `88 8888 88'  `88 88  88  88 88'  `88 88ooood8 88'  `88 
+88.  ... 88            88.  .88 88.88b.88' 88.  .88 88.  ... 88    88 
+`88888P' dP            88Y888P' 8888P Y8P  `8888P88 `88888P' dP    dP 
+                       88                       .88                   
+                       dP                   d8888P                    
+
+About
+=====
+
+ Chromium extension to fill input with a random password. This is not
+published on the Chrome Web Store because I don't see why it should
+be - I don't imagine it's the most secure or sane way of doing it;
+and it is designed to be configured in source. To side-load this
+plugin: download the source, enable developer mode in the extensions
+menu, then click `Load unpacked` and navigate to the downloaded
+extension source.
+
+Motive
+======
+
+ As a Mozilla Firefox user, I quite like being able to generate
+passwords in-browser, but was slightly upset when I tried Vivaldi as
+it does not offer this functionality.
+
+
+Configuration
+=============
+ Edit the two const values in `src/background.js`, and then click 
+`Update` in the extensions menu.
+
+
+Roadmap
+=======
+v1.0.1:
+    - Update to MV3
+      [https://developer.chrome.com/docs/extensions/mv3/intro/]
+v1.0.2:
+    - Autofill this generated password to all
+      `<input type="password">`s on page (similar to Mozilla Firefox)
